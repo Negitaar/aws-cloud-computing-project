@@ -58,3 +58,12 @@ The baseline logistic regression model achieved an accuracy of ___, precision of
 Some feature values were missing, so imputation was required before training. The model also uses limited categorical features and does not account for operational factors such as staffing levels or agency workload.
 
 
+## Comparison with SageMaker models
+
+- Ran Linear Learner binary classification notebook
+- Task: Predict complaint resolution speed
+- Metrics: Accuracy ~0.80
+- Performance similar to sklearn model
+- SageMaker workflow is more scalable but more complex
+
+
